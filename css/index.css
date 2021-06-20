@@ -67,6 +67,12 @@ pre{
     font-size: 16px;
     padding: 10px;
     background-color: rgb(241, 241, 241);
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
 }
 
 a{
@@ -78,6 +84,7 @@ a{
     body{
         margin: 0px;
         padding: 0px;
+        width: 100%;
     }
     header{
         font-size: 15px;
