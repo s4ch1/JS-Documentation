@@ -1,0 +1,109 @@
+body{
+    background-color: gainsboro;
+    color: rgb(58, 58, 58);
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Slabo 27px', serif;
+}
+
+/* For small screens */
+h1{
+    display: none;
+}
+
+/* For laptop or medium sized screens */
+nav header{
+    display: block;
+    text-align: center;
+    background-color:midnightblue;
+    padding: 10px;
+    color: white;
+}
+
+nav{
+    height: 100%; 
+    position: fixed; 
+    overflow: auto; 
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: #f1f1f1;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li a {
+    display: block;
+    padding: 9px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: midnightblue;
+    text-shadow: 0 0 1px lightslategray;
+}
+
+header{
+    color: black;
+    font-size: 30px;
+}
+
+.main-section{
+    padding-top: 20px;;
+    padding-left: 320px;
+    padding-right: 20px;
+}
+
+p, a{
+    font-size: 20px;
+}
+
+p{
+    text-align: justify;
+}
+
+pre{
+    font-size: 16px;
+    padding: 10px;
+    background-color: rgb(241, 241, 241);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        padding: 10px;
+    }
+    header{
+        font-size: 15px;
+    }
+    p, ul, a{
+        font-size: 10px;
+    }
+    pre{
+        font-size: 8px;
+    }
+    nav{
+        display: none;
+    }
+    h1{
+        display: contents;
+        display: block;
+        background-color: midnightblue;
+        color: white;
+        padding: 10px;
+        font-size: 16px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    .main-section{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
